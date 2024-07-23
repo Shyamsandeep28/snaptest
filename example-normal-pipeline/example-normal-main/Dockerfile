@@ -1,5 +1,5 @@
 # Base image
-FROM alpine:3.9.6
+FROM alpine:3.19
 
 # Install npm
 RUN apk add --update --no-cache npm
